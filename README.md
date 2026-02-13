@@ -8,7 +8,7 @@ What's the fun in a QR code?
 
 I trimmed his code down to about 53 lines and made a prime number from it.
 
-This repo contains a 5,942-digit prime whose bytes are a gzip stream that decompresses to a complete, trainable GPT implementation -- in pure Python with zero dependencies.
+This repo contains a 3,000-digit prime whose bytes are a gzip stream that decompresses to a complete, trainable GPT implementation -- in pure Python with zero dependencies.
 
 ## The Prime
 

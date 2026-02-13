@@ -1,0 +1,16 @@
+illegal_prime.bin
+hex_prime.hex
+gpt_prime.txt
+
+input.txt
+
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+.DS_Store
+
+old/

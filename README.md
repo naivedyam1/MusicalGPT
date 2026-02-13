@@ -3,6 +3,7 @@
 A GPT model that is a prime number.
 
 Yesterday, Kuber Mehta made a post about putting a GPT model inside a QR code.
+
 What's the fun in a QR code?
 
 I trimmed his code down to about 53 lines and made a prime number from it.

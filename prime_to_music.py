@@ -24,5 +24,5 @@ P("assembling...");o=N.concatenate([E[c]for c in d])
 p=N.max(N.abs(o))
 if p>0:o=o/p*.95
 o=(o*32767).astype(N.int16)
-f=W.open("primeGPT_music.wav","wb");f.setnchannels(1);f.setsampwidth(2);f.setframerate(R);f.writeframes(o.tobytes());f.close()
-P(f"wrote primeGPT_music.wav | {L(o)/R:.0f}s | {L(d)} notes | 🎵")
+f=W.open("musicalGPT.wav","wb");f.setnchannels(1);f.setsampwidth(2);f.setframerate(R);f.writeframes(o.tobytes());f.close()
+P(f"wrote musicalGPT.wav | {L(o)/R:.0f}s | {L(d)} notes | 🎵")

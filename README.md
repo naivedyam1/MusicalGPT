@@ -1,3 +1,25 @@
+# musicalGPT
+
+A 15 minute song inside which an entire GPT model lives. This implementation is an added layer on Henry Zhang's 
+implementation where he converted Andrej Karpathy's implementation of the GPT into a prime number. I took the decimal representation of the prime and converted it into a song. For this I am treating the entire prime number as a string and assigning the most frequent element as "Sa" and the second most frequent element as "Pa" which are the most common notes in Indian classical music. The third most frequent element is assigned as "Sa'" which is Sa of the next octave and to account for the extra 2 notes I have kept one note "Ga'" and "'Ni" and these are the least common elements in this.
+
+These notes are taken as semitones from Sa and my Sa in this implementation is the one in harmonium.wav. The semitone for Sa is 0 and for the notes above it's a positive number while for the notes below it is a negative number. 
+
+| Note | Digit | Semitones from Sa |
+|------|-------|-------------------|
+| Sa | 3 | 0 |
+| Pa | 0 | +7 |
+| Sa' | 9 | +12 |
+| Re | 2 | +2 |
+| Ga | 8 | +4 |
+| Ma | 5 | +5 |
+| Komal Dha | 4 | +8 |
+| Ni | 7 | +11 |
+| Ga' | 1 | +16 |
+| 'Ni | 6 | -1 |
+
+To go from GPT to this prime, refer to the sections below which are taken as it is from Zhang's readme.
+
 # femtoGPT
 
 A GPT model that is a prime number.
